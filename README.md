@@ -21,16 +21,3 @@ This project processes multimodal sensor data from the [TruckScenes Devkit](http
 ## Dataset
 
 Utilizes the `v1.0-mini` version of the TruckScenes dataset (10 scenes). Only radar and camera data from the rear-left side of the truck were used.
-
-## Dependencies
-
-- Python 3.8+
-- PyTorch
-- Ultralytics YOLOv8
-- NumPy, OpenCV, Matplotlib
-- Additional devkit dependencies (see dataset SDK)
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
