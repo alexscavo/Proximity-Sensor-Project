@@ -383,7 +383,7 @@ def main(config):
                         for i in range(len(recent_entries) - 1):
                             Z0 = recent_entries[i]['Z']
                             Z1 = recent_entries[i + 1]['Z']
-                            dt = 0.1    # f = 0 Hz
+                            dt = 0.1    # f = 10 Hz
 
                             if dt > 0:
                                 v_z = (Z0 - Z1) / dt
