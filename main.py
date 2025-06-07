@@ -9,7 +9,6 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'truckscenes', 'src'))
 import argparse
 import matplotlib.pyplot as plt
 from src.io import init_dataset, get_sample_data
-from src.processing import evaluate_free_space, check_zone_threats
 import os
 import open3d as o3d
 import numpy as np
@@ -18,7 +17,6 @@ from scipy.spatial import ConvexHull
 from truckscenes.utils.data_classes import LidarPointCloud, RadarPointCloud
 from truckscenes.utils.geometry_utils import view_points, transform_matrix, \
     BoxVisibility
-from src.visualization import visualize_all_lidars
 from pyquaternion import Quaternion
 from ultralytics import YOLO
 from src.utils import create_transform_matrix, transform_points

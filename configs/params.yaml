@@ -1,4 +1,0 @@
-dataset_root: "data/mini_dataset"
-visualize: true
-free_space_distance: 5.0  # meters around each corner
-velocity_threshold: 3.0   # m/s, used to flag incoming objects
